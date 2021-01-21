@@ -91,6 +91,11 @@ button {
   width: 40%;
 }
 
+#pillars {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (min-width: 800px) {
   body {
     background: #afafaf;
