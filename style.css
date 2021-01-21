@@ -62,7 +62,6 @@ button {
   background: #e5e5e5;
 }
 .firstDiv {
-
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -88,6 +87,10 @@ button {
   justify-content: space-around;
 }
 
+#Gerry {
+  width: 40%;
+}
+
 @media (min-width: 800px) {
   body {
     background: #afafaf;
@@ -103,8 +106,12 @@ button {
     justify-content: center;
     align-items: center;
   }
-  #controls, header{
+  #controls,
+  header {
     width: 70vw;
   }
 
+  #Gerry {
+    width: 300px;
+  }
 }
