@@ -34,7 +34,6 @@ body {
 }
 
 header {
-  
   left: 0px;
   top: 22px;
 
@@ -48,7 +47,7 @@ header {
   letter-spacing: -0.015em;
   display: flex;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
   border: 5px solid green;
 
   color: #000000;
@@ -63,10 +62,6 @@ button {
   background: #e5e5e5;
 }
 .firstDiv {
-  width: 414px;
-  height: 62px;
-  left: -1px;
-  top: 262px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -81,34 +76,35 @@ button {
   color: #000000;
 }
 #contain {
-    border: 1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #controls {
-    border: 2px solid blue;
-    display: flex;
-    
-    justify-content: space-around;
+  border: 2px solid blue;
+  display: flex;
 
-
+  justify-content: space-around;
 }
 
-
-
-
-
-
-
 @media (min-width: 800px) {
-    body {
-        background: grey;
-    }
+  body {
+    background: #afafaf;
+  }
+  #controls button {
+    width: 100px;
+  }
 
+  #topstyle {
+    display: flex;
+    border: 2px solid pink;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #controls, header{
+    width: 70vw;
+  }
 
-
-
-
-    
 }
