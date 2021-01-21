@@ -97,6 +97,8 @@ button {
 #pillars {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
@@ -104,6 +106,22 @@ footer {
   background: rgb(255, 255, 255);
   padding: 10px 10px 10px 10px;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pillars div {
+  width: 20%;
+}
+
+#welcomeface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -130,5 +148,11 @@ footer {
 
   #Gerry {
     width: 300px;
+  }
+
+  #pillars {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
   }
 }
