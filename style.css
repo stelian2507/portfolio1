@@ -11,20 +11,23 @@ body {
 }
 
 #one {
-  background: url("https://images.unsplash.com/photo-1506112573664-1a1b66d93ff3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80");
+  background: url("https://images.unsplash.com/photo-1562504208-03d85cc8c23e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bWFwfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
 
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 50%;
 }
 #two {
-  background: url("https://images.unsplash.com/photo-1498598457418-36ef20772bb9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+  background: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 50%;
 }
 #three {
-  background: url("https://images.unsplash.com/photo-1600586363978-e520de02cdaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fHZpZXd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background: url("https://images.unsplash.com/photo-1470133294210-94114cf67cc6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTF8fHN1YndheSUyMGRvb3JzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 50%;
 }
 .card {
   border: 1px solid black;
@@ -92,6 +95,7 @@ button {
 
 #Gerry {
   width: 40%;
+  border-radius: 50%;
 }
 
 #pillars {
@@ -125,7 +129,16 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
+.pagetwo {
+    display: flex;
+    flex-direction: space-between;
+    
+}
+#imagelight {
+    width: 5cm;
+    height: 5cm;
+    border-radius: 50%;
+}
 @media (min-width: 800px) {
   body{
     background-size: 100%;
