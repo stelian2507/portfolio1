@@ -92,7 +92,7 @@ button {
   justify-content: space-around;
 }
 
-#Gerry {
+.Gerry {
   width: 40%;
   border-radius: 50%;
 }
@@ -167,7 +167,7 @@ footer {
     width: 70vw;
   }
 
-  #Gerry {
+  .Gerry {
     width: 300px;
   }
 
