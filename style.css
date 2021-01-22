@@ -29,7 +29,7 @@ body {
   border-radius: 50%;
 }
 .card {
-  border: 1px solid black;
+  
   width: 300px;
 }
 .card div {
@@ -53,8 +53,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid green;
-
+  
   color: #000000;
 }
 
@@ -80,13 +79,13 @@ button {
   color: #000000;
 }
 #contain {
-  border: 1px solid red;
+ 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 #controls {
-  border: 2px solid blue;
+  
   display: flex;
 
   justify-content: space-around;
@@ -177,6 +176,18 @@ footer {
   background-color: rgba(0, 60, 255, 0.233); /* Black background with opacity */
   z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
 }
+#planeover {
+  position: fixed; /* Sit on top of the page content */
+  display: show; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(216, 216, 247, 0.733); /* Black background with opacity */
+  z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
+}
 .footericons {
   display: flex;
   flex-direction: row;
@@ -187,7 +198,7 @@ footer {
 }
 @media (min-width: 800px) {
   body {
-    background-size: 100%;
+    background-size: cover;
   }
   #controls button {
     width: 100px;
@@ -195,7 +206,7 @@ footer {
 
   #topstyle {
     display: flex;
-    border: 2px solid pink;
+  
     flex-direction: column;
     justify-content: center;
     align-items: center;
