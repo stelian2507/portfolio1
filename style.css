@@ -5,7 +5,6 @@ body {
   background: #ffffff;
   margin: 100px 100px 100px 100px;*/
   margin: 0;
-  background: url("https://images.unsplash.com/photo-1600586363978-e520de02cdaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fHZpZXd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -139,6 +138,15 @@ footer {
     height: 5cm;
     border-radius: 50%;
 }
+
+.citybg {
+  background-image: url(https://images.unsplash.com/photo-1462121594302-c1ed6b9ab32d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNpdHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+.planebg{
+  background-image: url("https://images.unsplash.com/photo-1600586363978-e520de02cdaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fHZpZXd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
 @media (min-width: 800px) {
   body{
     background-size: 100%;
