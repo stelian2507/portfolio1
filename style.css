@@ -106,7 +106,7 @@ button {
 
 footer {
   display: flex;
-  background: rgb(255, 255, 255);
+  background: rgb(170, 169, 169);
   padding: 10px 10px 10px 10px;
   justify-content: center;
   flex-direction: column;
