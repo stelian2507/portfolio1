@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 body {
+  font-family: "Montserrat", sans-serif;
   /*position: relative;
   width: 1440px;
   height: 2749px;
@@ -53,7 +56,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   color: #000000;
 }
 
@@ -79,28 +82,45 @@ button {
   color: #000000;
 }
 #contain {
- 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 #controls {
-  
   display: flex;
 
   justify-content: space-around;
 }
 
 .Gerry {
-  width: 40%;
+  width: 40vw;
+  height: 40vw;
   border-radius: 50%;
+  display: flex;
+  margin: auto;
+
+  background: url("photo1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #pillars {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+  align-items: flex-start;
+}
+#pillars h3 {
+  font-size: 20px;
+}
+#pillars ul {
+  list-style-type: none;
+  width: 25%;
+  
+}
+
+#pillars ul li {
+  line-height: 30px;
 }
 
 footer {
@@ -115,7 +135,6 @@ footer {
 
 #pillars div {
   width: 40%;
-
 }
 
 #welcomeface {
@@ -179,7 +198,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 60, 255, 0.233); /* Black background with opacity */
+  background-color: rgb(0 126 255 / 43%); /* Black background with opacity */
   z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
 }
 #planeover {
@@ -191,16 +210,27 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(216, 216, 247, 0.733); /* Black background with opacity */
+  background-color: rgba(
+    216,
+    216,
+    247,
+    0.733
+  ); /* Black background with opacity */
   z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
 }
 .footericons {
+  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 .footericons img {
   height: 5vw;
+  padding: 20px;
+}
+
+.studycaseimg {
+  border-radius: 50%;
 }
 @media (min-width: 800px) {
   body {
@@ -212,7 +242,7 @@ footer {
 
   #topstyle {
     display: flex;
-  
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -220,10 +250,6 @@ footer {
   #controls,
   header {
     width: 70vw;
-  }
-
-  .Gerry {
-    width: 300px;
   }
 
   #pillars {
