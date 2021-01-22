@@ -107,10 +107,11 @@ button {
 footer {
   display: flex;
   background: rgb(255, 255, 255);
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10vw 10px 10vw;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 #pillars div {
@@ -176,12 +177,6 @@ footer {
   background-color: rgba(0, 60, 255, 0.233); /* Black background with opacity */
   z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
 }
-<<<<<<< HEAD
-  
-@media (min-width: 800px) {
-  body{
-    background-size: cover;
-=======
 .footericons {
   display: flex;
   flex-direction: row;
@@ -193,7 +188,6 @@ footer {
 @media (min-width: 800px) {
   body {
     background-size: 100%;
->>>>>>> 94a81531460eee5db1a9aba212d6ff318780d285
   }
   #controls button {
     width: 100px;
