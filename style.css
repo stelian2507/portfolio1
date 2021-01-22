@@ -163,6 +163,9 @@ footer {
 .padding {
   padding: 10vw;
 }
+.biosummarydes {
+  padding: 10vw;
+}
 @media (min-width: 800px) {
   body{
     background-size: 100%;
