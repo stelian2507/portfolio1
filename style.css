@@ -1,3 +1,7 @@
+* { 
+  font-family: ;
+
+}
 body {
   /*position: relative;
   width: 1440px;
@@ -160,7 +164,7 @@ footer {
   justify-content: center;
 }
 .padding {
-  padding: 10vw;
+  padding: 0px 10vw 0px 10vw;
   text-align: center;
 }
 
