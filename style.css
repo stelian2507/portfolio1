@@ -147,12 +147,12 @@ footer {
 }
 .lastimage {
   border-radius: 50%;
-  width: 3in;
+  width: 25vw;
 }
 .lastarticle {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
 }
 .biosummary {
   display: flex;
